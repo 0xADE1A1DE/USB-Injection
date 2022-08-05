@@ -1,5 +1,6 @@
 # USB Injector
 _~5 minute read_
+
 A USB device capable of injecting upstream communications on behalf of other connected USB devices.
 Under the provided configurations the injector can send keystrokes on behalf of a victim keyboard device while presenting itself as a mouse device. The injector can also block genuine inputs sent by the victim.
 
