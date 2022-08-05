@@ -101,5 +101,7 @@ These applications are based on an original USB device core 'FPGA-USB-V2' produc
 ## Copyright and license
 
 Original source - Copyright 2009 by Robert E. Jenkins
+
 Modified source - Copyright 2022 by Robbie Dumitru
+
 These applications can be freely modified, used, and distributed as long as the attributions to both the original author and author of modifications (and their employers) are not removed.
