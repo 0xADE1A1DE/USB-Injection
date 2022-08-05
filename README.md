@@ -46,6 +46,7 @@ The ```lsusb``` command can be used to show complete device connection hierarchy
 
 ## Setup
 _~10 min setup (with equipment gathered)_
+
 Here are instructions for setting up the Low-Speed (LS) injection platform to perform injections on behalf of a regular LS keyboard victim. We also mention any differences in steps for configuring as a Full-Speed device, such configuration will only inject against FS keyboards which are rarer (usually just gaming keyboards).
 1. Connect Basys 3 board to the computer running Vivado and program the target FPGA with the bitstream file:
 USB 1.x Injector > LS Keystroke Injector > USB_Demo.bit
@@ -87,7 +88,7 @@ Windows Key, Windows Key & r, c, m, d, Enter Key.
 
 ## Vulnerable hubs
 Injection was found to work against most USB 2.0 hubs and a small minority of 3.0 hubs. Injection of LS/FS traffic as performed by the injectors provided here will only work against single-TT (non-multi-TT) hubs, you can check which category the hubs you test fall into since it is specific in hub descriptor fields. Injection does not work when connecting directly to a computer's root hub, which are typically connected to its fixed USB ports.
-Please consult the research paper for more information, there we have listed all the hubs we tested and which were found vulnerable. We are interested in any additional 3.0 hub models found vulnerable, if you test and find one feel free to contact the paper's primary author.
+Please consult the research paper for more information, there we have listed all the hubs we tested and which were found vulnerable. We are interested in any additional 3.0 hub models found vulnerable, if you test and find one feel free to contact the paper's primary author ([Robbie Dumitru](https://robbiedumitru.github.io/)).
 
 
 
