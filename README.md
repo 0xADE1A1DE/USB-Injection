@@ -66,6 +66,9 @@ Pmod connector header pin numbering.
 
 3. Pull up the D+ line to 3.3V across a 1.5kΩ resistor (as in diagram below). To do this, you can connect one side of the resistor through JB6 (Vcc at 3.3V) on the same Basys 3 Pmod header, and connect the other side to the junction of JB3 and D+ from the spliced cable.
 (For configuring injector as Full-Speed device, D- line must be pulled up instead)
+
+![LS wiring](https://github.com/0xADE1A1DE/USB-Injection/blob/main/images/LS%20wiring.png)
+
 4. Plug spliced USB connector into USB port and confirm connection of mouse device (see above 'Software -- For viewing connected USB devices')
 
 ## How to use
