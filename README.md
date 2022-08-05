@@ -61,7 +61,9 @@ LS Keystroke Injector > USB_Demo.bit
 | Vs | ![#ff0000](https://via.placeholder.com/15/ff000/ff000.png) Red | Leave unconnected |
 
 Pmod connector header pin numbering.
+
 ![Pmod](https://digilent.com/reference/_media/basys3-pmod_connector.png)
+
 ![Basys 3 Pinout](https://digilent.com/reference/_media/reference/programmable-logic/basys-3/basys3-pinout.png)
 
 3. Pull up the D+ line to 3.3V across a 1.5kΩ resistor (as in diagram below). To do this, you can connect one side of the resistor through JB6 (Vcc at 3.3V) on the same Basys 3 Pmod header, and connect the other side to the junction of JB3 and D+ from the spliced cable.
