@@ -49,8 +49,8 @@ _~10 min setup (with equipment gathered)_
 
 Here are instructions for setting up the Low-Speed (LS) injection platform to perform injections on behalf of a regular LS keyboard victim. We also mention any differences in steps for configuring as a Full-Speed device, such configuration will only inject against FS keyboards which are rarer (usually just gaming keyboards).
 1. Connect Basys 3 board to the computer running Vivado and program the target FPGA with the bitstream file:
-USB 1.x Injector > LS Keystroke Injector > USB_Demo.bit
-(FS alternative in ... > FS Keystroke Injector > ...)
+LS Keystroke Injector > USB_Demo.bit
+(FS alternative in FS Keystroke Injector > ...)
 2. Connect wires from a spliced USB cable to the Basys 3 board with the following pin correspondence:
 
 | USB pin | USB wire colour | Basys 3 JB Pmod pin |
