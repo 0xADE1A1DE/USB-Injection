@@ -26,13 +26,13 @@ Listed below is the equipment required for use with the provided bitsream / cons
 
 ## Software
 
-### (Needed) -- programming the FPGA board
+### (Needed) - programming the FPGA board
 Any version of Xilinx's Vivado software, including free versions, can be used to configure the injector.
 See https://www.xilinx.com/support/download.html for latest versions.
 (Alternatively, Digilent's Adept software: https://digilent.com/reference/software/adept/start can be used, but this cannot be used to create and modify HDL designs).
 
-### (Optional, strongly recommended) -- viewing connected USB devices
-Viewing the complete hierarchy of USB devices connected to your computer, along with their descriptor sets, will help confirm the platform is working. This is also good for general awareness -- you might find some interesting things too e.g. your fixed webcam actually connected as a USB device.
+### (Optional, strongly recommended) - viewing connected USB devices
+Viewing the complete hierarchy of USB devices connected to your computer, along with their descriptor sets, will help confirm the platform is working. This is also good for general awareness - you might find some interesting things too e.g. your fixed webcam actually connected as a USB device.
 
 #### Windows:
 While Device Manager can be used to show connected devices, there are other tools which better visualisation.
@@ -41,7 +41,7 @@ We highly recommend [USB Device Tree Viewer](https://www.uwe-sieber.de/usbtreevi
 #### Linux:
 The ```lsusb``` command can be used to show complete device connection hierarchy and decriptor sets.
 
-### (Optional) -- viewing USB traffic
+### (Optional) - viewing USB traffic
 [Wireshark](https://www.wireshark.org/)'s USBPcap functionality can be used to inspect USB traffic. This can confirm misattribution of injected data to the victim device if injection is successful.
 
 ## Setup
@@ -56,7 +56,7 @@ LS Keystroke Injector > USB_Demo.bit
 | USB pin | USB wire colour | Basys 3 JB Pmod pin |
 | ------ | ------ | ------ |
 | D+ | ![#32cd32](https://via.placeholder.com/15/32cd32/32cd32.png) Green | JB1 |
-| D-- | ![#ffffff](https://via.placeholder.com/15/F9F6EE/F9F6EE.png) White | JB3 |
+| D- | ![#ffffff](https://via.placeholder.com/15/F9F6EE/F9F6EE.png) White | JB3 |
 | Gnd | ![#000000](https://via.placeholder.com/15/00000/00000.png) Black | JB5 |
 | Vs | ![#ff0000](https://via.placeholder.com/15/ff000/ff000.png) Red | Leave unconnected |
 
@@ -71,16 +71,16 @@ Pmod connector header pin numbering.
 
 ![LS wiring](https://github.com/0xADE1A1DE/USB-Injection/blob/main/images/LS%20wiring.png)
 
-4. Plug spliced USB connector into USB port and confirm connection of mouse device (see above 'Software -- For viewing connected USB devices')
+4. Plug spliced USB connector into USB port and confirm connection of mouse device (see above 'Software - For viewing connected USB devices')
 
 ## How to use
 1. With setup complete, connect both the injector and victim keyboard through the same USB hub. Confirm that the keyboard and injector are both operating in the same speed mode (LS or FS), and are logically connected through the same hub (some hubs such as 7-port hubs are implemented by chaining a 4-port hub onto another 4-port hub).
-2. The injector can selectively block or allow victim communication. Different injection configurations are managed by two switches on the bottom right of the Basys 3 board (see labels in table below). Ensure the reset switch (SW0 -- furthest to the right) is off (down). The victim device can only be used as normal in state 1. Configure the switches into state 3 to attempt injection in next step.
+2. The injector can selectively block or allow victim communication. Different injection configurations are managed by two switches on the bottom right of the Basys 3 board (see labels in table below). Ensure the reset switch (SW0 - furthest to the right) is off (down). The victim device can only be used as normal in state 1. Configure the switches into state 3 to attempt injection in next step.
  
 | State | inj (SW1) | DOSswitch (SW2) | Behaviour |
 | ------ | ------ | ------ | ------ |
 | 0 | 0 | 0 | NAKs being injected |
-| 1 | 0 | 1 | No injections -- victim works |
+| 1 | 0 | 1 | No injections - victim works |
 | 2 | 1 | 0 | NAKs being injected |
 | 3 | 1 | 1 | Data is being injected |
 
