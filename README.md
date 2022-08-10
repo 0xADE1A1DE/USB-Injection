@@ -20,7 +20,7 @@ We do not condone the use of this technology for illegal purposes and assume no 
 Listed below is the equipment required for use with the provided bitsream / constraints files. However, alternative target boards can be used with porting of constraints. The cores are not very demanding of logic resources; buttons, switches, and 3.3V IO (like Pmod) are mainly what is needed.
 
 - [Digilent Basys 3 FPGA development board](https://digilent.com/shop/basys-3-artix-7-fpga-trainer-board-recommended-for-introductory-users/). This is a cheap (149 USD) and commonly used FPGA board. If you are at a university with an Elec Eng department, chances are they will have some of these available. A USB A to Micro B cable is also needed to program the board.
-- Spliced USB cable with intact type-A male connector (part that plugs into computer USB ports)
+- Spliced USB cable (exposing internal connector wires) with intact type-A male connector (part that plugs into computer USB ports)
 - 1.5kΩ resistor
 - Wires / connectors / breadboard
 
