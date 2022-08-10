@@ -35,7 +35,7 @@ See https://www.xilinx.com/support/download.html for latest versions.
 Viewing the complete hierarchy of USB devices connected to your computer, along with their descriptor sets, will help confirm the platform is working. This is also good for general awareness - you might find some interesting things too e.g. your fixed webcam actually connected as a USB device.
 
 #### Windows:
-While Device Manager can be used to show connected devices, there are other tools which better visualisation.
+While Device Manager can be used to show connected devices, there are other tools which provide better visualisation.
 We highly recommend [USB Device Tree Viewer](https://www.uwe-sieber.de/usbtreeview_e.html) by Uwe Sieber.
 
 #### Linux:
