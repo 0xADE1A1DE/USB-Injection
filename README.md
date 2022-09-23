@@ -14,7 +14,7 @@ This device is an artefact of research that has been published in a paper titled
 
 ## _Disclaimers_
 _We do not guarantee compliance with the USB Specification. In fact, our injectors are purposely non-compliant as the injection mechanism exploits the fact that USB assumes compliance from all devices on a given bus.
-We do not condone the use of this technology for illegal purposes and assume no responsibility for any damages caused._
+_In its state as provided, this is not an inherently destructive artefact. However it can be developed into one, as such we do not condone the use of this technology for illegal purposes and assume no responsibility for any damages caused._
 
 ## Equipment needed
 Listed below is the equipment required for use with the provided bitsream / constraints files. However, alternative target boards can be used with porting of constraints. The cores are not very demanding of logic resources; buttons, switches, and 3.3V IO (like Pmod) are mainly what is needed.
@@ -24,7 +24,7 @@ Listed below is the equipment required for use with the provided bitsream / cons
 - 1.5kΩ resistor
 - Wires / connectors / breadboard
 
-## Software
+## Software / tools
 
 ### (Needed) - programming the FPGA board
 Any version of Xilinx's Vivado software, including free versions, can be used to configure the injector.
