@@ -13,7 +13,7 @@ _Example_: to prevent [BadUSB](https://en.wikipedia.org/wiki/BadUSB)-type keyboa
 This device is an artefact of research that has been published in a paper titled _The Impostor Among US(B): Off-Path Injection Attacks on USB Communications_, to appear in [USENIX Security '23](https://www.usenix.org/conference/usenixsecurity23). A preprint is available online here (or within this repository).
 
 ## _Disclaimers_
-_We do not guarantee compliance with the USB Specification. In fact, our injectors are purposely non-compliant as the injection mechanism exploits the fact that USB assumes compliance from all devices on a given bus.
+_We do not guarantee compliance with the USB Specification. In fact, our injectors are purposely non-compliant as the injection mechanism exploits the fact that USB assumes compliance from all devices on a given bus._
 _In its state as provided, this is not an inherently destructive artefact. However it can be developed into one, as such we do not condone the use of this technology for illegal purposes and assume no responsibility for any damages caused._
 
 ## Equipment needed
