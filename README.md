@@ -1,11 +1,11 @@
 # USB Injector
 _~5 minute read_
 
-### Artefact Evaluation 
-Please note that this readme has been made for post-publication general information. For full information on carrying out Artefact Evaluation consult the Appendix Document submitted.
-
 A USB device capable of injecting upstream communications on behalf of other connected USB devices.
 Under the provided configurations the injector can send keystrokes on behalf of a victim keyboard device while presenting itself as a mouse device. The injector can also block genuine inputs sent by the victim.
+
+### Artefact Evaluation 
+Please note that this readme has been made for post-publication general information. For full information on carrying out Artefact Evaluation consult the Appendix Document submitted.
 
 ### Basic principles of use and security relevance
 Connect both the injector and a keyboard to a common USB hub. If the common hub is vulnerable to injection, pressing buttons on the injector will send keystroke inputs that the host computer receives and falsely attributes to the keyboard device. The security issue here is that this misattribution occurs at the hardware layer, so any protections implemented against USB-based attacks in software will be bypassed when injecting on behalf of a victim device that is trusted.
