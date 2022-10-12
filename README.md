@@ -23,12 +23,14 @@ Listed below is the equipment required for use with the provided bitsream / cons
 - Spliced USB cable (exposing internal connector wires) with intact type-A male connector (part that plugs into computer USB ports)
 - 1.5kΩ resistor
 - Wires / connectors / breadboard
+- USB Hub(s) for testing
 
 ## Software / tools
 
 ### (Needed) - programming the FPGA board
 Any version of Xilinx's Vivado software, including free versions, can be used to configure the injector.
 See https://www.xilinx.com/support/download.html for latest versions.
+
 (Alternatively, Digilent's Adept software: https://digilent.com/reference/software/adept/start can be used, but this cannot be used to create and modify HDL designs).
 
 ### (Optional, strongly recommended) - viewing connected USB devices
@@ -74,7 +76,7 @@ Pmod connector header pin numbering.
 4. Plug spliced USB connector into USB port and confirm connection of mouse device (see above 'Software - For viewing connected USB devices')
 
 ## How to use
-1. With setup complete, connect both the injector and victim keyboard through the same USB hub. Confirm that the keyboard and injector are both operating in the same speed mode (LS or FS), and are logically connected through the same hub (some hubs such as 7-port hubs are implemented by chaining a 4-port hub onto another 4-port hub).
+1. With setup complete, connect both the injector and victim keyboard through the same single-TT USB hub (this can be checked in hub descriptors within connection hierarchy). Confirm that the keyboard and injector are both operating in the same speed mode (LS or FS), and are logically connected through the same hub (some hubs such as 7-port hubs are implemented by chaining a 4-port hub onto another 4-port hub).
 2. The injector can selectively block or allow victim communication. Different injection configurations are managed by two switches on the bottom right of the Basys 3 board (see labels in table below). Ensure the reset switch (SW0 - furthest to the right) is off (down). The victim device can only be used as normal in state 1. Configure the switches into state 3 to attempt injection in next step.
  
 | State | inj (SW1) | DOSswitch (SW2) | Behaviour |
