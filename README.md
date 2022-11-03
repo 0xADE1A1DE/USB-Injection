@@ -10,7 +10,7 @@ Connect both the injector and a keyboard to a common USB hub. If the common hub 
 _Example_: to prevent [BadUSB](https://en.wikipedia.org/wiki/BadUSB)-type keyboard masquerading attacks, you configure a device authorisation policy to only trust keystroke inputs from a certain keyboard. With injection, that trusted keyboard's interface can still be used to send keystroke commands.
 
 ## Paper report
-This device is an artefact of research that has been published in a paper titled _The Impostor Among US(B): Off-Path Injection Attacks on USB Communications_, to appear in [USENIX Security '23](https://www.usenix.org/conference/usenixsecurity23). A preprint is available online here (or within this repository).
+This device is an artefact of research that has been published in a paper titled _The Impostor Among US(B): Off-Path Injection Attacks on USB Communications_, to appear in [USENIX Security '23](https://www.usenix.org/conference/usenixsecurity23). Preprint available online [here](https://github.com/0xADE1A1DE/USB-Injection/blob/main/Paper/sec23summer-final9.pdf) (within this repo).
 
 ## _Disclaimers_
 _We do not guarantee compliance with the USB Specification. In fact, our injectors are purposely non-compliant as the injection mechanism exploits the fact that USB assumes compliance from all devices on a given bus._
