@@ -112,3 +112,13 @@ Original source - Copyright 2009 by Robert E. Jenkins
 Modified source - Copyright 2022 by Robbie Dumitru
 
 These applications can be freely modified, used, and distributed as long as the attributions to both the original author and author of modifications (and their employers) are not removed.
+
+## Acknowledgements
+#### This project was supported by:  
+* the Air Force Office of Scientific Research (AFOSR) under award number FA9550-20-1-0425
+* an ARC Discovery Early Career Researcher Award number DE200101577
+* an ARC Discovery Project number DP210102670
+* the Blavatnik ICRC at Tel-Aviv University
+* the Defence Science and Technology Group (DSTG), Australia under Agreement ID10620
+* the National Science Foundation under grant CNS-1954712
+* and gifts from AMD, Intel, and Qualcomm
